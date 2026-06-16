@@ -5,9 +5,17 @@
     <description n1:nil="true" />
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.Test_Checkbox_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.VIP__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Contact-Formato de contactos</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Formato de candidatos</layout>
     </layoutAssignments>
